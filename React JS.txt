@@ -1,0 +1,69 @@
+What is ReactJS ?
+->React is a component-based library that helps you build UI by breaking it into reusable pieces called Component.
+
+Library :-
+---- GSAP
+---- Lenis
+---- ReactJS
+
+Real DOM(Document Object Model) :-
+->The actual structure  of your webpage that the browser creates from HTML.
+
+Virtual DOM :-
+-> This is a lightweight copy of the Real DOM used mainly by React
+-> It is created and stored in memort, not on the actual webpage.
+
+create vite(folder in react)
+
+->> npm create vite
+->> react
+->> javascript
+->> cd app-name
+->>npm install
+->>npm run dev
+
+React Files Are executed : -
+1). index.html
+2). main.jsx
+3). App.jsx
+
+difference between library and Framework
+library flow that can you handle but Framework has own flow  
+
+Component :- A component is the building block of a React application.
+Components let you split the UI into reusable, independent pieces.
+
+What is JSX?
+->>JSX is a syntax extension for Javascript that lets you write HTML like markup inside a Javascript file.
+
+Click Event :- Events in React JS are actions or interaction that happen in the browser, such as clicking, typing, submitting a form , hovering.
+
+Function call :- A function call in React JS means exrcuting a javaScript function inside a React Component.
+
+State :- 
+-> State is a container to store data like variable.
+-> This is mutable and dynamic.
+-> We have to import it when we want to use it.
+-> It re-render component automatically so that data can visible on UI.
+
+Hooks in React JS :-
+-> Hooks are the special features for functional component
+-> Hooks let you use different React featues from your component
+	-> State,
+	-> Life cycle method
+	-> Side effects 
+1). useState :- If you want something to update on the screen (UI), you need useState.
+
+Toggle or Hide and Show in React :-
+-> Toggle -> Switch a value between true / false
+-> Hide / Show -> Use a boolean state to conditionally render content
+
+Props :- Props are used to pass data from a parent component to a child component
+
+
+
+
+ 
+
+
+
