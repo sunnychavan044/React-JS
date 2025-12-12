@@ -58,8 +58,16 @@ Toggle or Hide and Show in React :-
 -> Toggle -> Switch a value between true / false
 -> Hide / Show -> Use a boolean state to conditionally render content
 
-Props :- Props are used to pass data from a parent component to a child component
+Props :- Props are used to pass data from a parent component to a child component.
 
+Controlled Component:- A controlled component in React if form input(like input, textarea, or select) whose value is controlled by React state, not by the DOM.
+
+benefits of Controlled Component:-
+-> Single Source of Truth
+-> Validation and Manipulation Before Submit
+-> Dynamic Updates Values
+
+Handle Checkbox :- The checkBox value is controlled by React state not by the browser.
 
 
 
