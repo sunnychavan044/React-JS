@@ -69,6 +69,8 @@ benefits of Controlled Component:-
 
 Handle Checkbox :- The checkBox value is controlled by React state not by the browser.
 
+What is Array :- Array is a collection of similar data type.
+
 
 
  
