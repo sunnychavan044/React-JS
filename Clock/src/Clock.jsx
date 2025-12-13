@@ -22,8 +22,9 @@ const Clock = () => {
         padding: "10px",
       }}
     >
-      <h2>Clock</h2>
-      <h1 style={{ color }}>{time}</h1>
+     <h2 style={{ color }}>Clock</h2>
+
+     <h1 style={{ color }}>{time}</h1>
 
       <select
         value={color}
@@ -35,6 +36,7 @@ const Clock = () => {
         <option value="green">Green</option>
         <option value="Yellow">Yellow</option>
         <option value="cyan">Cyan</option>
+        <option value="orange">Orange</option>
       </select>
     </div>
   );
