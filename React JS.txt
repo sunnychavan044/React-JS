@@ -72,6 +72,32 @@ Handle Checkbox :- The checkBox value is controlled by React state not by the br
 What is Array ?
 => Array is a collection of similar data type.
 
+What are hooks?
+=> Hooks in React are special function that allow functional components to use React features like state, lifecycle method, and context without writing class component
+
+Popular React Hooks :-
+-> useState
+-> useEffect
+-> useContext
+-> useRef
+-> useReducer
+
+What is useEffect Hook?
+-> useEffect is a React Hook used to perform side effects in functional components, such as data fetching, timers, subscriptions, or manually changing the DOM
+
+Use of useEffect Hook :-
+The useEffect hook is used to handle side effects in React functional components, such as API calls, timers, event listeners, subscriptions, and DOM updates, after the component renders.
+
+Basic use of useEffect:-
+-> Prevent Extra rendering of component on state
+
+syntax :-
+
+useEffect(pass function as parameter, dependency )
+
+useEffect(() => {
+// write your Code
+},[State or props])
 
 
  
