@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+.stopwatch-container {
+  width: 320px;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  color: white;
+}
+
+.stopwatch-container h1 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.stopwatch-container h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn-group button {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-group button:nth-child(1) {
+  background: #4caf50;
+  color: white;
+}
+
+.btn-group button:nth-child(2) {
+  background: #f44336;
+  color: white;
+}
+
+.btn-group button:nth-child(3) {
+  background: #ff9800;
+  color: white;
+}
+
+.btn-group button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.btn-group button:active {
+  transform: scale(0.95);
+}
+
