@@ -99,8 +99,19 @@ useEffect(() => {
 // write your Code
 },[State or props])
 
+Component LifeCycle :-
+React Life Cycle Methods :- 
 
- 
+Mounting ->                                Updating ->                                       Unmounting
+                                                           |
+                                                           |
+                                                           |
+                                                 Error Handling
 
+Mounting :- This phase involve the creation and insertion of the component into the DOM.
+
+Updating : - Occurs when the component re-renders due to state or prop changes.
+
+Unmounting :- The component is removed from the DOM.
 
 
