@@ -1,6 +1,12 @@
 What is ReactJS ?
 ->React is a component-based library that helps you build UI by breaking it into reusable pieces called Component.
 
+return ( <> </> ) : - This is the JSX returned by the component.
+
+<> </> is called a React Fragment.
+
+vite :- it is the modern frontend build tool used to create fast React, Vue and JavaScript application
+
 Library :-
 ---- GSAP
 ---- Lenis
@@ -114,4 +120,58 @@ Updating : - Occurs when the component re-renders due to state or prop changes.
 
 Unmounting :- The component is removed from the DOM.
 
+React Using CSS :-
+-> Inline Styele :- Use the style attribute directly on your elements.
+-> Bit different from basic css.
+
+<div style = {{  color : "blue",  fontSize: "10px"  }}>Hello World!</div>
+
+External CSS :- Make separate file for css
+And inport to components
+
+.container {
+background-color: red;
+padding: 20px;
+}
+
+CSS Modules :-
+-> Similar to external CSS files,
+-> But ensures that styles are locally scoped to a specific component
+
+.container {
+background-color: blue;
+padding : 20px
+}
+
+External CSS :-
+- Make separate file for css
+- And import to components
+
+// style.css
+.container {
+background-color : blue;
+padding : 20px
+}
+
+Styled Components :-
+- In React, styled-components is a library that allows you to write CSS directly within your JavaScript components.
+- This approch is known as CSS-in-js
+
+const Button = styled.button`
+  background-color: blue;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+Utility-first Libraries :-
+-> Material-UI
+-> React Bootstrap
+-> Tailwind CSS 
+
+Dynamic and Conditional inline Style : -
+=>
+
+Styled Component :- Styled Component is a CSS library used in React to write CSS inside JS and style components in a component scoped way
 
